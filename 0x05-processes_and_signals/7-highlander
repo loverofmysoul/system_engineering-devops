@@ -2,7 +2,7 @@
 # Print "To infinity and beyond" forever; on SIGTERM print "I am invincible!!!" and continue
 # Function to handle SIGTERM signal
 handle_sigterm() {
-    echo "I am invincible!!!"
+    echo "i am invincible!!!"
 }
 
 # Trap SIGTERM (signal 15) and call the handler
