@@ -6,7 +6,7 @@ handle_sigterm() {
 }
 
 # Trap SIGTERM (signal 15) and call the handler
-trap 'handle_sigterm' SIGTERM
+trap handle_sigterm SIGTERM
 
 # Infinite loop
 while true; do
